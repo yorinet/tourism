@@ -1,11 +1,10 @@
-const mysql = require('mysql');
 
 const dbConnect = mysql.createConnection({
-    host: 'db4free.net',
-    user: 'usereasyapp',
-    password: 'pwdeasyapp',
+    host: 'https://www.db4free.net',
+    user: 'usertourism',
+    password: 'pwdtourism',
     port: '3306',
-    database: 'dbeasyapp',
+    database: 'dbtourism',
 })
 
 dbConnect.connect((error) =>{
